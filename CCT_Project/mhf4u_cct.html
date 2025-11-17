@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MHF4U CCT | Functions in the Real World</title>
+  <style>
+    :root { --maxw: 1000px; }
+    *{box-sizing:border-box}
+    body{margin:0;font:16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;color:#111;background:#d9eaf7}
+    header{background:#2AA7D5;color:#fff;padding:28px 16px}
+    header .wrap{max-width:var(--maxw);margin:0 auto;display:flex;flex-wrap:wrap;align-items:center;gap:12px}
+    header h1 {margin: 0;font-size: 36px;font-weight: 700;letter-spacing: 1px;}
+
+    .meta{opacity:0.9;font-size:18px;font-weight: 500;}
+    nav{background:#DCE9F6;border-bottom:1px solid #e7e7ee;position:sticky;top:0;z-index:5}
+    nav .wrap{max-width:var(--maxw);margin:0 auto;display:flex;gap:12px;overflow:auto;padding:8px 12px}
+    nav a{white-space:nowrap;text-decoration:none;color:#222;background:#f0f0f4;border:1px solid #e0e0e8;padding:6px 10px;border-radius:10px}
+    main {max-width: var(--maxw);margin: 24px auto;padding: 0 48px;}
+
+
+    section{background:#fff;border:1px solid #e7e7ee;border-radius:16px;margin:16px 0;box-shadow:0 4px 12px rgba(0,0,0,.04)}
+    section header{background:#9ED7E9;border-radius:16px 16px 0 0;padding:18px 16px}
+    section header h2{color:#fff;margin:0;font-size:20px}
+    .card{padding:16px}
+    .grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+    .grid-1{display:grid;grid-template-columns:1fr;gap:12px}
+    figure{margin:0;border-radius:12px;overflow:hidden}
+    figure .ph{padding:24px;text-align:center;color:#555}
+    iframe{width:100%;min-height:360px;border:1px solid #e7e7ee;border-radius:12px;background:#fafafe}
+    code,kbd{background:#f1f3f8;border:1px solid #e1e4ef;border-radius:6px;padding:2px 6px}
+    .pill{display:inline-block;background:#eef7ee;border:1px solid #d5ebd5;color:#205c20;padding:2px 8px;border-radius:999px;font-size:12px;margin-right:6px}
+    .muted{color:#666}
+    details{border:1px solid #e7e7ee;border-radius:12px;padding:10px 12px;background:#fcfcff}
+    details summary{cursor:pointer;font-weight:600}
+    footer{max-width:var(--maxw);margin:28px auto 48px;padding:0 12px;color:#666}
+    ul{margin:8px 0 8px 18px}
+    .eq{font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; background: #f1f3f8; padding: 6px 8px; border-radius: 8px; border: 1px solid #e1e4ef;}
+  </style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <h1>MHF4U CCT Report | Functions in the Real World</h1>
+    <div class="meta">By：Eric & Owen & YiZhe & Zack｜Course：MHF4U Period 1｜Date：Nov 2025</div>
+  </div>
+</header>
+
+<nav>
+<main>
+  <div class="wrap">
+    <a href="#rational">Reciprocal Function</a>
+    <a href="#reciprocal-square">Reciprocal Quadratic Function</a>
+    <a href="#poly">Polynomial Function</a>
+    <a href="#tanlike">Secant Function</a>
+    <a href="#sine">Sine Function</a>
+    <a href="#exp">Exponential Function</a>
+    <a href="#log">Logarithmic Function</a>
+    <a href="#choiceA">Hyperbolic Cosine Function</a>
+    <a href="#choiceB">Piecewise Quadratic Function</a>
+  </div>
+</nav>
+<main>
+
+  <!-- Function section template -->
+  <section id="rational">
+    <header><h2>Reciprocal Function</h2></header>
+    <div class="card grid">
+      <figure>
+          <div class="ph"><img src="images/Reciprocal.jpeg" alt="Reciprocal" style="width:100%; border-radius:12px;">
+      </figure>
+      <div>
+        <div><b>Equation:</b> y = 1/x</span></div>
+        <p><b>Transformations:</b><br>
+          The basic reciprocal function y = 1/x<br>
+          forms two separate curved branches, <br>one in the first quadrant and one in the third quadrant.<br> With no shifts or stretches, <br>it stays in its standard hyperbola shape, <br>symmetric about the lines y = x and y = -x.
+        </p>
+        <p><b>Asymptotes:</b><br>
+        Vertical asymptote: x = 0<br>
+        Horizontal asymptote: y = 0
+
+        <p><b>Domain &amp; Range:</b><br>
+        Domain: (-∞, 0) ∪ (0, +∞)<br>
+        Range: (-∞, 0) ∪ (0, +∞)
+        </p>
+        </p>
+      </div>
+    </div>
+    <div class="card grid-1">
+        <div>Desmos: </div>
+        <iframe src="https://www.desmos.com/calculator/eeipszszio?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
+    </div>
+  </section>
+<section id="reciprocal-square">
+    <header><h2>Reciprocal Quadratic Function</h2></header>
+    <div class="card grid">
+      <figure>
+          <div class="ph"><img src="images/Streetlights.jpg" alt="Streetlights" style="width:100%; border-radius:12px;">
+      </figure>
+      <div>
+        <div><b>Equation: </b>y=-13/x²+1</div>
+        <p><b>Transformations:</b><br>
+       From the parent function y = 1/x²<br>
+            the graph is reflected across the x-axis,<br>
+            vertically stretched by a factor of 13,<br>
+            and translated upward by 1 unit.<br>
+            There is no horizontal translation or stretch.
+            
+            <p><b>Asymptotes:</b><br>
+                  Vertical asymptote: x = 0<br>
+                  Horizontal asymptote: y = 1
+
+        </p>
+        <p><b>Domain &amp; Range:</b><br>
+              Domain: x ∈ (-∞, 0) ∪ (0, +∞),<br>
+              Range: y ∈ (-∞, 1)
+        </p>
+      </div>
+    </div>
+    <div class="card grid-1">
+      <div>Desmos:</div>
+      <iframe src="https://www.desmos.com/calculator/ynleq1gbth?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
+    </div>
+  </section>
+<section id="poly">
+    <header><h2>Polynomial Function</h2></header>
+    <div class="card grid">
+      <figure>
+          <div class="ph"><img src="images/Zack‘s hand.jpg" alt="Zack‘s hand" style="width:100%; border-radius:12px;">
+      </figure>
+      <div>
+        <div><b>Equation: </b>y=0.5x²+0.26x³-0.97x⁴</div>
+        <p><b>Transformations:</b><br>
+        This is a quartic polynomial based on the general shape of the parent function y = x⁴<br>
+        Because the leading coefficient is negative (-0.97), the graph opens downward (it is reflected across the x-axis
+        relative to y = x⁴) and is vertically stretched by a factor of 0.97. <br>The additional x³ and x² terms bend the graph
+        and shift the locations of its turning points; they do not correspond to a single simple horizontal or vertical translation.
+
+          </p>
+        <p><b>Domain &amp; Range:</b><br>
+          Domain：{x∈R｜-∞ ≤x ≤∞}<br>
+        Range：{y∈R｜-∞ ≤y ≤0.11}
+        </p>
+      </div>
+    </div>
+    <div class="card grid-1">
+      <div>Desmos：</div>
+      <iframe src="https://www.desmos.com/calculator/svjwzloeot?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
+    </div>
+  </section>
+<section id="tanlike">
+    <header><h2>Secant Function</h2></header>
+    <div class="card grid">
+      <figure>
+          <div class="ph"><img src="images/sec（1）.jpg" alt="sec（1）.jpg" style="width:100%; border-radius:12px;">
+      </figure>
+      <div>
+        <div><b>Equation:</b> y = 2sec(0.5(x+0.3))-1 </span></div>
+        <p><b>Transformations:</b><br>
+          <span>From the parent function y = sec(x)<br>
+              the graph is vertically stretched by a factor of 2<br>
+              horizontally stretched by a factor of 2<br>
+              shifted left by 0.3 units<br>
+              and shifted downward by 1 unit<br>
+              <br>
+              
+              Period, Phase, Vertical Shift:<br>
+              Period: 4π<br>
+              Phase shift: left 0.3<br>
+              Vertical shift: down 1<br>
+</span>
+        </p>
+        <p><b>Asymptotes:</b><br>
+          <span>
+              Vertical asymptotes occur at x = π(2k + 1) - 0.3, k ∈ ℤ.
+</span>
+        <p><b>Domain &amp; Range:</b><br>
+              Domain: all real x except x = π(2k + 1) - 0.3<br>
+              Range: y ∈ (-∞, -3] ∪ [1, +∞)
+        </p>
+      </div>
+    </div>
+    <div class="card grid-1">
+        <div>Desmos: </div>
+        <iframe src="https://www.desmos.com/calculator/yx0onvxgwy?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
+    </div>
+  </section>
+<section id="sine">
+    <header><h2>Sine Function</h2></header>
+    
+    <div class="card grid">
+      <figure>
+          <div class="ph"><img src="images/sin（1）.jpg" alt="Merlion" style="width:100%; border-radius:12px;"></div>
+      </figure>
+      <div>
+        <div><b>Equation:</b>y=3sin(0.5(x+1))+0.3<div>
+        <p><b>Transformations:</b><br>
+        From the parent function y = sin(x)<br>the graph is vertically stretched by a factor of 3,<br>
+        horizontally stretched by a factor of 2, <br>shifted left by 1 unit, <br>and shifted upward by 0.3 units.<br>
+        <br>
+        Period, Amplitude, Phase:<br>
+        Amplitude: 3<br>
+        Period: 4π<br>
+        Phase shift: left 1<br>
+        Vertical shift: up 0.3<br>
+
+        </p>
+        <p><b>Domain &amp; Range:</b><br>
+        Domain: (-∞, +∞)<br>
+        Range: [-2.7, 3.3]
+
+        </p>
+      </div>
+    </div>
+    <div class="card grid-1">
+        <div>Desmos: </div>
+        <iframe src="https://www.desmos.com/calculator/7l436tcgop?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
+    </div>
+  </section>
+<section id="exp">
+    <header><h2>Exponential Function</h2></header>
+    <div class="card grid">
+      <figure>
+          <div class="ph"><img src="images/Exponential.jpg" alt="Exponential" style="width:100%; border-radius:12px;">
+      </figure>
+      <div>
+        <div><b>Equation:</b> <span>y= 0.06x²</span></div>
+        <p><b>Transformations:</b><br>
+        From the parent function y = x²<br>
+        the graph is vertically compressed by a factor of 0.06<br>
+        No reflection or translation.
+        </p>
+        <p><b>Domain &amp; Range:</b><br>
+        Domain: (-∞, +∞)<br>
+        Range: [0, +∞)
+        </p>
+      </div>
+    </div>
+    <div class="card grid-1">
+        <div>Desmos: </div>
+        <iframe src="https://www.desmos.com/calculator/3zjkekbvnu?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
+    </div>
+  </section>
+<section id="log">
+    <header><h2>Logarithmic Function</h2></header>
+    <div class="card grid">
+      <figure>
+        <div class="ph"><img src="images/Merlion.jpg" alt="Merlion" style="width:100%; border-radius:12px;">
+</div>
+      </figure>
+      <div>
+        <div>Equation: y = log(x)4</div>
+        <p><b>Transformations:</b><br>
+          From the parent function y = log(x), <br>the graph is translated upward by 4 units. <br>There is no reflection, no vertical or horizontal stretch, and no horizontal translation.
+              <p><b>Asymptotes:</b><br>
+                Vertical asymptote: x = 0
+        </p>
+        <p><b>Domain &amp; Range:</b><br>
+              Domain: x ∈ (0, +∞)<br>
+              Range: y ∈ (-∞, +∞)
+
+        </p>
+      </div>
+    </div>
+    <div class="card grid-1">
+      <div>Desmos: </div>
+      <iframe src="https://www.desmos.com/calculator/qnbxtg80rl?embed" width="20" height="900" style="border: 1px solid #ccc" frameborder=0></iframe>
+    </div>
+  </section>
+<section id="choiceA">
+    <header><h2>Hyperbolic Cosine Function</h2></header>
+    <div class="card grid">
+      <figure>
+          <div class="ph"><img src="images/cosh(0.45x) - 1.jpg" alt="cosh(0.45x) - 1" style="width:100%; border-radius:12px;">
+      </figure>
+      <div>
+        <div><b>Equation:</b> <span>y = cosh(0.45x)-1</span></div>
+        <p><b>Transformations:</b><br>
+          From the parent function y = cosh(x)<br>
+          the graph is horizontally stretched by a factor of approximately 2.22 (since the coefficient 0.45 slows the input),<br>
+          and shifted downward by 1 unit.<br>
+          There is no reflection and no vertical stretch.
+        </p>
+        <p><b>Domain &amp; Range:</b><br>
+          Domain: (-∞, +∞)<br>
+          Range: [0, +∞)
+
+        </p>
+      </div>
+    </div>
+    <div class="card grid-1">
+        <div>Desmos: </div>
+        <iframe src="https://www.desmos.com/calculator/8gnqs5vb5v?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
+    </div>
+  </section>
+<section id="choiceB">
+    <header><h2>Piecewise Quadratic Function</h2></header>
+    <div class="card grid">
+      <figure>
+          <div class="ph"><img src="images/combine.jpg" alt="combine" style="width:100%; border-radius:12px;">
+      </figure>
+      <div>
+        <div><b>Equation:</b> y = ±0.1x²</span></div>
+        <p><b>Transformations:</b><br>
+          The graph consists of two parabolas: one upward-opening (y = 0.1x²) and one downward-opening (y = -0.1x²). Both are symmetric about the y-axis and share the same vertex at the origin. Compared with y = ±x², the vertical stretch factor is 0.1, making the curves wider. There are no horizontal or vertical shifts.
+</span>
+        </p>
+        <p><b>Domain &amp; Range:</b><br>
+          The domain of both parabolas is all real numbers (-∞, +∞). The range of the upward parabola is y ≥ 0, while the range of the downward parabola is y ≤ 0. Together, they form a combined graph covering all y-values, positive and negative, except they meet at the origin.</span>
+        </p>
+      </div>
+    </div>
+    <div class="card grid-1">
+      <div>Desmos: </div>
+      <iframe src="https://www.desmos.com/calculator/nebi8qrsk8?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
+    </div>
+  </section>
